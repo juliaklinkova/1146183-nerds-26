@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button,
+.button-sites {
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #fb565a;
+  border: none;
+}
+
+.button-apps {
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #00ca74;
+  border: none;
+}
+
+.button-presentations {
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #efc84a;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button-sites:hover,
+.button-sites:focus {
+  background-color: #e74246;
+}
+
+.button:active,
+.button-sites:active {
+  background-color: #d7373b;
+}
+
+.button-apps:hover,
+.button-apps:focus {
+  background-color: #00bc6c;
+}
+
+.button-apps:active {
+  background-color: #00aa62;
+}
+
+.button-presentations:hover,
+.button-presentations:focus {
+  background-color: #eab534;
+}
+
+.button-presentations:active {
+  background-color: #e5a722;
+}
+
+.filter-button {
+  text-align: center;
+  color: #000000;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #eeeeee;
+  border: none;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: #dfdfdf;
+}
+
+.filter-button:active {
+  background-color: #d5d5d5;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #eeeeee;
+}
+
+.site-navigation,
+.cart {
+  list-style: none;
+}
+
+.site-navigation a,
+.cart a {
+   color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.cart a:hover,
+.cart a:focus {
+  color: #fb565a;
+}
+
+.page-title {
+  text-align: center;
+
+  background-color: #eeeeee;
+}
+
+.filter ul {
+  list-style: none;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter legend {
+  font-size: 18px;
+}
+
+.advantages {
+  list-style: none;
+}
+
+.advantages h3 {
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.writeus-item input, textarea {
+  font: inherit;
+
+  border: 2px solid #d7dcde;
+}
+
+.writeus-item input:hover, textarea:hover {
+  border-color: #b4b9bb;
+}
+
+.writeus-item input:focus, textarea:focus {
+  border-color: #000000;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-category {
+  background-color: #eeeeee;
+}
+
+.catalog-item-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.catalog-item-title:hover,
+.catalog-item-title:focus {
+  color: #fb565a;
+}
+
+.footer-friends {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.footer-social ul{
+  list-style: none;
+}
+
+.social-button {
+  color: #000000;
+}
