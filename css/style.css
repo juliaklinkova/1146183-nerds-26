@@ -16,34 +16,27 @@ a {
 }
 
 .button,
-.button-sites {
-  text-align: center;
-  color: #ffffff;
-  vertical-align: middle;
-  text-transform: uppercase;
-
-  background-color: #fb565a;
-  border: none;
-}
-
-.button-apps {
-  text-align: center;
-  color: #ffffff;
-  vertical-align: middle;
-  text-transform: uppercase;
-
-  background-color: #00ca74;
-  border: none;
-}
-
+.button-sites,
+.button-apps,
 .button-presentations {
   text-align: center;
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
-
-  background-color: #efc84a;
   border: none;
+}
+
+.button,
+.button-sites {
+  background-color: #fb565a;
+}
+
+.button-apps {
+  background-color: #00ca74;
+}
+
+.button-presentations {
+  background-color: #efc84a;
 }
 
 .button:hover,
@@ -150,17 +143,20 @@ a {
   text-transform: uppercase;
 }
 
-.writeus-item input, textarea {
+.writeus-item input,
+.letter-text {
   font: inherit;
 
   border: 2px solid #d7dcde;
 }
 
-.writeus-item input:hover, textarea:hover {
+.writeus-item input:hover,
+.letter-text:hover {
   border-color: #b4b9bb;
 }
 
-.writeus-item input:focus, textarea:focus {
+.writeus-item input:focus,
+.letter-text:focus {
   border-color: #000000;
 }
 
